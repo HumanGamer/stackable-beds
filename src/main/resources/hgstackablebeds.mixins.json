@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.humangamer.stackablebeds.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "BedItemMixin",
+    "ItemStackMixin"
   ],
   "injectors": {
     "defaultRequire": 1

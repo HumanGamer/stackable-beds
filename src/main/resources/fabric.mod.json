@@ -1,35 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hgstackablebeds",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Stackable Beds",
+  "description": "Makes beds stackable up to 64!",
   "authors": [
-    "Me!"
+    "HumanGamer"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/HumanGamer/stackable-beds"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hgstackablebeds/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.humangamer.stackablebeds.StackableBedsMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hgstackablebeds.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.15.x"
+    "fabric": "*"
   },
   "suggests": {
     "flamingo": "*"
